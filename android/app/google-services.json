@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "135236436314",
+    "project_id": "cloud-cafe-12ee3",
+    "storage_bucket": "cloud-cafe-12ee3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135236436314:android:9d8e9df91ac2968d8bf363",
+        "android_client_info": {
+          "package_name": "com.example.cloud_cafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU22D7JH1GbdHYRrQm7uvD_R6gZKw3Tgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
