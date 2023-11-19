@@ -38,5 +38,4 @@ class CafeModel {
       city: data['city'],
     );
   }
-
 }

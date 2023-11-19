@@ -25,6 +25,13 @@ class _HomescreenState extends State<Homescreen> {
     cafeLocationController.clear();
   }
 
+  // read
+  // void readCafe() {
+  //   CafeModel cafeModel = CafeModel(
+  //       name: cafeNameController.text, city: cafeLocationController.text);
+  //   cafeRepository.readCafe(cafeModel);
+  // }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -68,7 +75,7 @@ class _HomescreenState extends State<Homescreen> {
                 CustomButton(
                     label: 'Read',
                     onPressed: () {
-                      debugPrint('Read');
+                      cafeRepository.readCafe();
                     },
                     color: Colors.green),
                 CustomButton(
